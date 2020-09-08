@@ -1,0 +1,24 @@
+.section{
+    margin-top:30px;
+    @media (max-width: 510px){
+        flex-direction : column;
+        margin-top:200px;
+        align-items: center;
+    }
+
+    height: 100vh;
+}
+
+h2{
+    font-size:1.8rem;
+    color:white;
+}
+
+.project-cards{
+    display:flex;
+    justify-content: space-around;
+    @media (max-width: 510px){
+        flex-direction : column;
+    }
+}
+
